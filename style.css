@@ -19,7 +19,17 @@ body {
     height: 500px;
     width: 500px;
     border: 2px solid black;
+    /* translate: -110px -110px; */
 
+    transition: 0.7s ease;
+}
+
+.circle-container-rotate{
+    transform: rotate(-40deg);
+
+}
+
+     /* transform:rotateY(40deg);
 }
 
 
@@ -33,10 +43,12 @@ body {
     translate: -100px -100px;
     border: 2px solid red;
 
-    position: relative;
+    position: fixed;
 
 
-   
+    background-color: blue;
+
+   transition: 0.7s ease;
 
 }
 
@@ -52,6 +64,19 @@ body {
     left: 100px;
     margin: 2rem;
 
+    border: none;
+    padding: 5px;
+    border-radius:3px;
+
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+
+
+}
+
+.btn span{
+    font-size: 15px;
 
 }
 
