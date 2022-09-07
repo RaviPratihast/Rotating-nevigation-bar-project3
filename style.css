@@ -44,6 +44,8 @@ body {
     border: 2px solid red;
 
     position: fixed;
+    top: 0;
+    left: 0;
 
 
     background-color: blue;
